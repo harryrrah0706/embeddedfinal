@@ -14,7 +14,7 @@ use UNISIM.VComponents.all;
 
 entity data_swapper is
   port(
-    dmao : in ahb_dma_out_type;
+    dmao   : in ahb_dma_out_type;
     hrdata	: out std_logic_vector(AHBDW-1 downto 0)
   );
 end entity;
